@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/jamkkan-care-landing/', // GitHub repo 이름과 일치해야 합니다
+  base: '/Short_term_care/', // GitHub repo 이름과 일치
 })
