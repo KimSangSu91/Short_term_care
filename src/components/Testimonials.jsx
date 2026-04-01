@@ -10,7 +10,7 @@ export default function Testimonials() {
       author: "이장호",
       role: "관장",
       organization: "부산북구장애인종합복지관",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+      image: "/avatar_lee.png"
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export default function Testimonials() {
       author: "윤은수",
       role: "팀장",
       organization: "부산북구장애인종합복지관",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+      image: "/avatar_yoon.png"
     }
   ];
 

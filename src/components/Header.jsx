@@ -50,7 +50,7 @@ export default function Header({ onOpenModal }) {
           
           {/* Logo */}
           <div className="flex-shrink-0 cursor-pointer" onClick={(e) => scrollToSection(e, '#hero')}>
-            <span className="text-2xl font-black text-emerald-700 tracking-tight">잠깐돌봄</span>
+            <img src="/logo.png" alt="잠깐돌봄" className="h-8 w-auto object-contain" />
           </div>
 
           {/* Desktop Navigation */}
