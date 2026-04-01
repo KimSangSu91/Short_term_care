@@ -10,7 +10,7 @@ export default function Testimonials() {
       author: "이장호",
       role: "관장",
       organization: "부산북구장애인종합복지관",
-      image: "/avatar_lee.png"
+      image: `${import.meta.env.BASE_URL}avatar_lee.png`
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export default function Testimonials() {
       author: "윤은수",
       role: "팀장",
       organization: "부산북구장애인종합복지관",
-      image: "/avatar_yoon.png"
+      image: `${import.meta.env.BASE_URL}avatar_yoon.png`
     }
   ];
 

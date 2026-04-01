@@ -8,7 +8,7 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="col-span-1 md:col-span-2">
-            <img src="/logo.png" alt="잠깐돌봄" className="h-10 w-auto object-contain mb-6" style={{ filter: 'brightness(0) invert(1)' }} />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="잠깐돌봄" className="h-10 w-auto object-contain mb-6" style={{ filter: 'brightness(0) invert(1)' }} />
             <p className="text-gray-400 mb-6 max-w-sm leading-relaxed">
               필요한 순간, 필요한 만큼만.
               <br />복지관 기반의 새로운 맞춤형 돌봄 생태계

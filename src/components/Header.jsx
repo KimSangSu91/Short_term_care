@@ -50,7 +50,7 @@ export default function Header({ onOpenModal }) {
           
           {/* Logo */}
           <div className="flex-shrink-0 cursor-pointer" onClick={(e) => scrollToSection(e, '#hero')}>
-            <img src="/logo.png" alt="잠깐돌봄" className="h-8 w-auto object-contain" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="잠깐돌봄" className="h-8 w-auto object-contain" />
           </div>
 
           {/* Desktop Navigation */}

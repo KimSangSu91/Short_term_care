@@ -125,15 +125,15 @@ export default function Benefits({ onOpenModal }) {
               {[...Array(3)].map((_, i) => (
                 <div key={i} className="flex gap-16 items-center">
                   {[
-                    { src: '/부산시_logo.png', alt: '부산광역시' },
-                    { src: '/부산사서원_logo.png', alt: '부산사회서비스원' },
-                    { src: '/만덕_logo.png', alt: '만덕복지관' },
-                    { src: '/공창_logo.png', alt: '공창복지관' },
-                    { src: '/북구장복_logo.jpg', alt: '북구장애인종합복지관' }
+                    { src: '부산시_logo.png', alt: '부산광역시' },
+                    { src: '부산사서원_logo.png', alt: '부산사회서비스원' },
+                    { src: '만덕_logo.png', alt: '만덕복지관' },
+                    { src: '공창_logo.png', alt: '공창복지관' },
+                    { src: '북구장복_logo.jpg', alt: '북구장애인종합복지관' }
                   ].map((logo, index) => (
                     <div key={index} className="flex items-center justify-center min-w-[200px]">
                       <img 
-                        src={logo.src} 
+                        src={`${import.meta.env.BASE_URL}${logo.src}`} 
                         alt={logo.alt} 
                         className="w-32 h-auto object-contain brightness-100 grayscale hover:grayscale-0 transition-all duration-500" 
                       />

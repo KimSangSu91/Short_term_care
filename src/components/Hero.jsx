@@ -63,7 +63,7 @@ export default function Hero({ isModalOpen, setIsModalOpen }) {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white p-4">
               <div className="absolute inset-0 bg-gradient-to-tr from-emerald-100 to-white opacity-80" />
               <img
-                src="/hero-image.png"
+                src={`${import.meta.env.BASE_URL}hero-image.png`}
                 alt="따뜻한 돌봄 서비스"
                 className="relative rounded-2xl w-full h-[400px] object-cover"
               />
